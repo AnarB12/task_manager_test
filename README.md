@@ -19,11 +19,9 @@ This is a simple practice task management web app created using **Flask**. It's 
 
 ## **Installation**
 
-### **1. Prerequisites**
 
 Make sure you have **Conda** installed and set up on your machine.
 
-### **2. Set Up the Project**
 
 1. **Clone the repository**:
 
@@ -61,6 +59,7 @@ Make sure you have **Conda** installed and set up on your machine.
 
 6. **Access the app**:  
     Go to `http://localhost:5000` in your web browser.
+
 
 ## **File Structure**
 
