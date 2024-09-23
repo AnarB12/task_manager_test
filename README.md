@@ -1,16 +1,16 @@
-# **Task Manager Web App**
+# **Task Manager Web App (for fun)**
 
-This is a simple task management web app created using **Flask**. It's a practice project since I have just started working on these kinds of web projects and want to learn more. My goal is to understand the basics of building web apps, handling user logins, and managing data like tasks.
+This is a simple practice task management web app created using **Flask**. It's a practice project since I have just started working on these kinds of web projects and want to learn more. My goal is to understand the basics of building web apps, handling user logins, and managing data like tasks.
 
-## **Features**
+## **Simple Features**
 
 - **User Registration and Login**: Users can create an account and log in.
 - **Task Management**: Users can add, edit, delete, and view tasks.
 - **Mark Tasks as Completed**: You can check off tasks as "completed."
-- **Search**: There's a search feature to look for tasks based on titles or descriptions.
-- **Simple UI**: The interface is built with Bootstrap for a clean look.
+- **Search (kind of)**: There's a search feature to look for tasks based on titles or descriptions.
+- **TOO Simple UI**: The interface is built with Bootstrap.
 
-## **Technologies Used**
+## **Techs Used**
 
 - **Python**: For the server-side code.
 - **Flask**: A simple web framework for building web apps.
@@ -28,7 +28,7 @@ Make sure you have **Conda** installed and set up on your machine.
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/AnarB12/task-manager.git
+    git clone https://github.com/AnarB12/task_manager_test.git
     cd task-manager
     ```
 
@@ -62,7 +62,7 @@ Make sure you have **Conda** installed and set up on your machine.
 6. **Access the app**:  
     Go to `http://localhost:5000` in your web browser.
 
-## **Project Structure**
+## **File Structure**
 
 ```bash
 task_manager_test/
@@ -82,7 +82,6 @@ task_manager_test/
 └── README.md
 ```
 
-## **What I’ve Learned**
 
 This project helped me practice:
 
@@ -91,11 +90,14 @@ This project helped me practice:
 - Building simple web pages and layouts with Bootstrap.
 - Using forms to submit data and process it in Python.
   
-## **Weaknesses / What's Missing**
+## **What's Missing**
 
 Since this is just a practice project, there are a few things that were **not included**:
 
-- **Security**: This app does not include advanced security like password recovery or multi-factor authentication. I’m focusing on the basics.
+- **Security**: This app does not include advanced security like password recovery or multi-factor authentication. I’m focusing on the basics for myself.
 - **Error Handling**: Some parts of the app might not have full error messages or user-friendly notifications.
 - **No Advanced Features**: Things like push notifications, file uploads, or more complex task management (like recurring tasks) are not included.
 - **Only Local Data**: The data is stored on the local machine using SQLite, so if you delete the app files, the tasks will be lost. There is no online or cloud storage.
+
+Special thanks to ChatGPT for being my coding buddy! :'))
+
