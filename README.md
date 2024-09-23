@@ -28,7 +28,7 @@ Make sure you have **Conda** installed and set up on your machine.
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/your_username/task-manager.git
+    git clone https://github.com/AnarB12/task-manager.git
     cd task-manager
     ```
 
