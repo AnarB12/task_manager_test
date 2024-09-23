@@ -1,0 +1,29 @@
+body {
+    padding-top: 56px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #ccc;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 2rem 1rem;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+}
+
+.form-inline {
+    display: flex;
+    align-items: center;
+}
+
+.form-inline .form-group {
+    margin-right: 10px;
+}

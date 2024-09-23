@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="jumbotron text-center">
+    <h1 class="display-4">Welcome to Task Manager</h1>
+    <p class="lead">Your personal task management tool.</p>
+    <hr class="my-4">
+    {% if not current_user.is_authenticated %}
+        <p>Please login or register to manage your tasks.</p>
+        <a class="btn btn-primary btn-lg" href="{{ url_for('auth.login') }}" role="button">Login</a>
+        <a class="btn btn-success btn-lg" href="{{ url_for('auth.register') }}" role="button">Register</a>
+    {% else %}
+        <a class="btn btn-primary btn-lg" href="{{ url_for('main.tasks') }}" role="button">View Tasks</a>
+    {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+task_manager_env/
+
+# Conda environment files
+*.conda
+*.pickle
+*.pkl
+
+# dotenv environment variables file
+.env
+
+# SQLite database
+*.db
+*.sqlite3
+
+# Migrations
+migrations/
+
+# MacOS files
+.DS_Store
