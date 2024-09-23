@@ -15,7 +15,7 @@ This is a simple practice task management web app created using **Flask**. It's 
 - **Python**: For the server-side code.
 - **Flask**: A simple web framework for building web apps.
 - **SQLite**: For storing tasks and user data locally.
-- **Bootstrap**: For making the web pages look better with responsive design.
+- **Bootstrap**: For making the web pages responsive.
 
 ## **Installation**
 
