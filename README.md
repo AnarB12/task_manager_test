@@ -20,7 +20,21 @@ This is a simple task management web app created using **Flask**. It's a practic
 ## **Project Structure**
 
 ```bash
-task_manager/ ├── app/ │ ├── init.py │ ├── auth_routes.py │ ├── forms.py │ ├── models.py │ ├── routes.py │ ├── static/ │ └── templates/ ├── migrations/ ├── .env ├── config.py ├── run.py ├── requirements.txt └── README.md
+task_manager/
+├── app/
+│   ├── __init__.py
+│   ├── auth_routes.py
+│   ├── forms.py
+│   ├── models.py
+│   ├── routes.py
+│   ├── static/
+│   └── templates/
+├── migrations/
+├── .env
+├── config.py
+├── run.py
+├── requirements.txt
+└── README.md
 ```
 
 ## **What I’ve Learned**
