@@ -88,15 +88,8 @@ This project helped me practice:
 - Managing tasks (create, edit, delete) in a database.
 - Building simple web pages and layouts with Bootstrap.
 - Using forms to submit data and process it in Python.
-  
-## **What's Missing**
 
-Since this is just a practice project, there are a few things that were **not included**:
+This is just a practice project to help me understand the basics.
 
-- **Security**: This app does not include advanced security like password recovery or multi-factor authentication. I’m focusing on the basics for myself.
-- **Error Handling**: Some parts of the app might not have full error messages or user-friendly notifications.
-- **No Advanced Features**: Things like push notifications, file uploads, or more complex task management (like recurring tasks) are not included.
-- **Only Local Data**: The data is stored on the local machine using SQLite, so if you delete the app files, the tasks will be lost. There is no online or cloud storage.
-
-Special thanks to ChatGPT for being my coding buddy! :'))
+Thanks to ChatGPT for being my coding buddy! 😂😂
 
